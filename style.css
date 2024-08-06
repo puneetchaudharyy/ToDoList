@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(21, 54, 119), rgb(78, 8, 95));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do-app {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  background-color: #eee;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.to-do-list-image {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-text {
+  flex-grow: 1;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.remove-icon {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.done .task-text {
+  text-decoration: line-through;
+}
+
+.remove-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.done .task-text {
+    text-decoration: line-through; /* Cross out completed tasks */
+}
+x`
